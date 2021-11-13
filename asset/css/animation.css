@@ -1,0 +1,43 @@
+.banner > p{
+	animation-name: banner-p;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	position: relative;
+
+}
+
+@keyframes banner-p{
+	from{top: 0%;}
+	to{top: 40%;}
+}
+
+
+.nav a:hover{
+	background: #0099ff;
+	border-radius: 25px;
+	color: white;
+
+}
+
+.active{
+	border: 2px solid #0099ff;
+	border-radius: 25px;
+
+
+}
+@media screen and (min-width: 600px){
+#icon-animation{
+		animation-name: iconzoom;
+	animation-direction: alternate;
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes iconzoom{
+	0%{font-size: 0px;}
+
+	50%{font-size: 60px; color: black;}
+	100%{font-size: 40px;}
+	
+}
+}
