@@ -3,124 +3,126 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="asset/css/style.css">
-<link rel="stylesheet" type="text/css" href="asset/css/animation.css">
- <link rel="icon" href="asset/img/Favicon.png" type="image/gif" sizes="18x18">
-<!--<script src="script.js"></script>-->
-<script src="https://kit.fontawesome.com/b3b5d4b699.js" crossorigin="anonymous"></script>
-<title>Askaf | web dev</title>
+	<!-- <link rel="stylesheet" type="text/css" href="asset/css/style.css"> -->
+	<link rel="stylesheet" type="text/css" href="asset/scss-css/main.css">
+	<link rel="stylesheet" type="text/css" href="asset/css/animation.css">
+	<link rel="icon" href="asset/img/Favicon.png" type="image/gif" sizes="18x18">
+	<!--<script src="script.js"></script>-->
+	<script src="https://kit.fontawesome.com/b3b5d4b699.js" crossorigin="anonymous"></script>
+	<title>Askaf Portfolio</title>
 </head>
 <!----------Developer Details------------
 -------Name: Askaf---------------
--------Category: professional web developer
+-------
 -->
 <body>
 <!----------------------------Nav---------------------------->
-<header>
-			<nav class="nav">
-				<a href="#" class="active">Home</a>
-				<a href="asset/page/blog.html">Blog</a>
-				<a href="asset/page/about.html">About</a>
+<header class="head">
+			<nav class="head--menu">
+				<a href="#" class="head--menu--link head--menu--link__active">Home</a>
+				<a href="asset/page/blog.html" class="head--menu--link">Blog</a>
+				<a href="asset/page/about.html" class="head--menu--link">About</a>
 			</nav>
 </header>
 <!----------------------------Banner---------------------------->
 	<div class="banner">
-	<p>i'm <span class="btext">Askaf</span> <br>web developer & freelancer<br>
-	<a href="mailto:askaf@outlook.in"><button class="bbtn">Contact</button></a></p>
+	<p class="banner--text">i'm <span class="banner--text__name">Askaf</span> <br>web developer & freelancer<br>
+	<a href="mailto:askaf@outlook.in"><button class="banner--button">Contact</button></a></p>
 	</div>
 
-	<div class="taglinetext">
-	<p><hr>Give your's Dreams, Make it Real<hr></p></div>
-<!----------------------------Icon content-------------------------->
-<div class="bg flexbox ">
+	<div class="tagline">
+	<p><hr class="tagline--line">Give your's Dreams, Make it Real<hr class="tagline--line"></p></div>
+<!----------------------------Icon Section-------------------------->
+<div class="icons">
 	<div>
-	<i class="fas fa-lock" id="icon-animation"></i>
+	<i class="fas fa-lock icons--animation" ></i>
 	<h4>Secure</h4></div>
 
-	<div><i class="fas fa-mobile-alt" id="icon-animation"></i>
+	<div><i class="fas fa-mobile-alt icons--animation"></i>
 	<h4>Responsive</h4></div>
 	
-	<div><i class="fas fa-tachometer-alt" id="icon-animation"></i>
+	<div><i class="fas fa-tachometer-alt icons--animation"></i>
 	<h4>Speed</h4></div>
 </div>		
 
 <!----------------------------Web category---------------------------->
-<div class="bgblue">
+<div class="c-sec">
 
-<h2 class="subheadtext">Category</h2>
-			<div class="flexbox">
-				<div class="content-box1">
-					
-					<h3 class="subtitletext">Personal</h3>
-					<div class="contanttext">
-					<p>Gallery</p>
-					<p>Portfolio</p>
-					<p>Blog</p></div>
-				</div>
-				<div class="content-box1">
-
-					<h3 class="subtitletext">Business</h3>
-					<div class="contanttext">
-					<p>Personal Brand</p>
-					<p>Freelancers</p>
-					<p>Entrepreneur</p></div>
-				</div>
-				<div class="content-box1">
-					<h3 class="subtitletext">E-Commerce</h3>
-					<div class="contanttext">
-					<p>Shop</p>
-					<p>Afillate Marketing</p>
-					<p>Restaurant</p></div>
-				</div>
+	<h2 class="c-sec--tittle">Category</h2>
+		
+		<div class="c-sec--flexbox">
+			<div class="c-sec__box">
+				
+				<h3 class="c-sec__subtittle">Personal</h3>
+				<div class="c-sec__contant">
+				<p>Gallery</p>
+				<p>Portfolio</p>
+				<p>Blog</p></div>
 			</div>
 			
-			</div>	
+			<div class="c-sec__box">
+
+				<h3 class="c-sec__subtittle">Business</h3>
+				<div class="c-sec__contant">
+				<p>Personal Brand</p>
+				<p>Freelancers</p>
+				<p>Entrepreneur</p></div>
+			</div>
+			<div class="c-sec__box">
+				<h3 class="c-sec__subtittle">E-Commerce</h3>
+				<div class="c-sec__contant">
+				<p>Shop</p>
+				<p>Afillate Marketing</p>
+				<p>Restaurant</p></div>
+			</div>
+		</div>
+</div>	
 <!----------------------------Web models---------------------------->
-<div class="model">
-	<h2 class="subheadtext">Models</h2>
-	<div class="flexbox">
-	<div class="content-box2 imgbg" style="background-image: url(asset/img/Personal.png);">
-	<div class="btnbg">
+<div class="m-sec">
+	<h2 class="m-sec--tittle">Models</h2>
+	<div class="m-sec--flexbox">
+	<div class="m-sec__box m-sec__img" style="background-image: url(asset/img/Personal.png);">
+	<div class="m-sec__button--bg">
 	<span>Personal</span>
-	<a href="https://askaf.godaddysites.com/" target="_blank"><button class="btn">View</button></a></div>
+	<a href="https://askaf.godaddysites.com/" target="_blank"><button class="m-sec__button">View</button></a></div>
 	</div>
-<div class="content-box2 imgbg" style="background-image: url(asset/img/Business.png);">
-<div class="btnbg">
+<div class="m-sec__box m-sec__img" style="background-image: url(asset/img/Business.png);">
+<div class="m-sec__button--bg">
 <span>Business</span>
-<a href="#" target="_blank"><button class="btn">View</button></a></div>
+<a href="#" target="_blank"><button class="m-sec__button">View</button></a></div>
 </div>
-<div class="content-box2 imgbg" style="background-image: url(asset/img/E-Com.png);">
-<div class="btnbg">
+<div class="m-sec__box m-sec__img" style="background-image: url(asset/img/E-Com.png);">
+<div class="m-sec__button--bg">
 <span>E-Commerce</span>
-<a href="#" target="_blank"><button class="btn">View</button></a></div>
+<a href="#" target="_blank"><button class="m-sec__button">View</button></a></div>
 </div></div></div>
 					
 <!----------------------------Process---------------------------->
-<div class="bgblue">
-	<h2 class="subheadtext">Process</h2>
-<div class="flexbox">
-	<div class="content-box3">
-		<h2 id="pn">1</h2>
+<div class="p-sec">
+	<h2 class="p-sec--tittle">Process</h2>
+<div class="p-sec--flexbox">
+	<div class="p-sec__box">
+		<h2 class="p-sec__contant">1</h2>
 		<h3>Consult</h3>
 		<p>What you want, based on purpose</p>
 	</div>
-	<div class="content-box3">
-		<h2 id="pn">2</h2>
+	<div class="p-sec__box">
+		<h2 class="p-sec__contant">2</h2>
 		<h3>Develope</h3>
 		<p>A website</p>
 	</div>
-	<div class="content-box3">
-		<h2 id="pn">3</h2>
+	<div class="p-sec__box">
+		<h2 class="p-sec__contant">3</h2>
 		<h3>Purchase</h3>
 		<p>Domain & Host</p>
 	</div>
-	<div class="content-box3">
-		<h2 id="pn">4</h2>
+	<div class="p-sec__box">
+		<h2 class="p-sec__contant">4</h2>
 		<h3>Payment</h3>
 		<p>For work</p>
 	</div>
-	<div class="content-box3">
-		<h2 id="pn">5</h2>
+	<div class="p-sec__box">
+		<h2 class="p-sec__contant">5</h2>
 		<h3>Live</h3>
 		<p>Our Website live On internet</p>
 	</div>
@@ -129,25 +131,25 @@
 <!----------------------------Skills---------------------------->
 
 <span id="skills"></span>
-<div class="bg">
-<h2  class="subheadtext">Skills</h2><hr>
-				<div class="skills">
-					<div>
-		<i class="fab fa-wordpress"></i>
-		<h4>Wordpress</h4></div>
-
-<div>
-	<i class="fas fa-envelope"></i>
-	<h4>Email marketing</h4>
-	</div>
-<div>
-	<i class="fas fa-code"></i>
-	<h4>HTML, CSS</h4>
-	</div></div></div>
-    
-      
-	</div>
-	
+	<div class="skill-sec">
+		<h2  class="skill-sec--tittle">Skills</h2><hr  class="skill-sec__line">
+			<div class="skill-sec__box">
+				<div>
+					<i class="fab fa-wordpress skill-sec__icon"></i>
+					<h4>Wordpress</h4>
+				</div>
+			
+				<div>
+					<i class="fas fa-envelope skill-sec__icon"></i>
+					<h4>Email marketing</h4>
+				</div>
+		
+				<div>
+					<i class="fas fa-code skill-sec__icon"></i>
+					<h4>HTML, CSS</h4>
+				</div>
+			</div>
+	</div>	
 
 <!----------------------------Contact---------------------------->
 <!--<h2 class="subheadtext" >Contact</h2>
@@ -156,19 +158,19 @@
 <a  href="#" id="contact">Linked in</a></div>-->
 
 <!----------------------------Footer---------------------------->
-<footer>
+<footer class="footer">
 	<!--<hr style="border: 1px solid black; width: 50%; margin-bottom: 20px;">-->
-	<div class="footerbox">
-		<div class="footertext">
+	<div class="footer__box">
+		<div class="footer__text">
 		<p id="dom">Contact</p>
 		
-		<a  href="mailto:askaf@outlook.in" id="contact">askaf@outlook.in</a>
+		<a  href="mailto:askaf@outlook.in" id="contact" class="footer__link">askaf@outlook.in</a>
 
 	</div>
 	<div>
 		<p>Social</p>
-		<a  href="#" id="contact"><i class="fab fa-linkedin" style="color:white;"></i></a>
-		<a  href="#" id="contact"><i class="fab fa-instagram" style="color:white;"></i></a>
+		<a  href="#" id="contact"><i class="fab fa-linkedin footer__icon" style="color:white;"></i></a>
+		<a  href="#" id="contact"><i class="fab fa-instagram footer__icon" style="color:white;"></i></a>
 	</div>
 
 	<!--<div>
